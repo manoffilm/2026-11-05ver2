@@ -43,16 +43,28 @@
   sender('5c60693bf40566')
 </script> 
 <style>
-  <style id="sender-form-styles">
+ <style id="sender-form-styles">
   .sender-form-field {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-  }
-  .sender-form-field > * {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .sender-form-field > * {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .sender-form-field iframe,
+  .sender-form-field form {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+</style>
 </style>	
 </head>
 <body>
